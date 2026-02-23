@@ -13,7 +13,7 @@ export default defineConfig({
   site: "https://jaseci-docs.kevinjin.dev",
   integrations: [
     starlight({
-      title: "Jac",
+      title: "Jac Docs",
       logo: {
         src: "./src/assets/logo.png",
       },
@@ -34,6 +34,7 @@ export default defineConfig({
       },
       customCss: ["./src/styles/custom.css"],
       expressiveCode: {
+        frames: false,
         shiki: {
           langs: [
             {
@@ -87,12 +88,14 @@ export default defineConfig({
         },
         {
           label: "Tutorials",
+          collapsed: true,
           items: [
             { label: "Overview", slug: "tutorials" },
             { label: "Learning Roadmap", slug: "tutorials/roadmap" },
             { label: "Build an AI Day Planner", slug: "tutorials/first-app/build-ai-day-planner" },
             {
               label: "Core Language",
+              collapsed: true,
               items: [
                 { label: "Jac Programming Primer", slug: "tutorials/language/coding_primer" },
                 { label: "Jac Basics (from Python)", slug: "tutorials/language/basics" },
@@ -105,6 +108,7 @@ export default defineConfig({
             },
             {
               label: "AI Integration",
+              collapsed: true,
               items: [
                 { label: "byLLM Quickstart", slug: "tutorials/ai/quickstart" },
                 { label: "Structured Outputs", slug: "tutorials/ai/structured-outputs" },
@@ -114,6 +118,7 @@ export default defineConfig({
             },
             {
               label: "Full-Stack Apps",
+              collapsed: true,
               items: [
                 { label: "Project Setup", slug: "tutorials/fullstack/setup" },
                 { label: "React-Style Components", slug: "tutorials/fullstack/components" },
@@ -129,6 +134,7 @@ export default defineConfig({
             },
             {
               label: "Production",
+              collapsed: true,
               items: [
                 { label: "Local API Server", slug: "tutorials/production/local" },
                 { label: "Deploy to Kubernetes", slug: "tutorials/production/kubernetes" },
@@ -136,6 +142,7 @@ export default defineConfig({
             },
             {
               label: "Examples Gallery",
+              collapsed: true,
               items: [
                 { label: "Overview", slug: "tutorials/examples" },
                 { label: "LittleX (Twitter Clone)", slug: "tutorials/examples/littlex" },
@@ -149,11 +156,13 @@ export default defineConfig({
         },
         {
           label: "Reference",
+          collapsed: true,
           items: [
             { label: "CLI Reference", slug: "reference/cli" },
             { label: "Configuration", slug: "reference/config" },
             {
               label: "Language Reference",
+              collapsed: true,
               items: [
                 { label: "Overview", slug: "reference/language" },
                 { label: "Part I: Foundation", slug: "reference/language/foundation" },
@@ -180,11 +189,13 @@ export default defineConfig({
         },
         {
           label: "Community",
+          collapsed: true,
           items: [
             { label: "Breaking Changes", slug: "community/breaking-changes" },
             { label: "Contributors", slug: "community/contributors" },
             {
               label: "Release Notes",
+              collapsed: true,
               items: [
                 { label: "Jaclang", slug: "community/release_notes/jaclang" },
                 { label: "byLLM", slug: "community/release_notes/byllm" },
@@ -195,6 +206,7 @@ export default defineConfig({
             },
             {
               label: "Internals",
+              collapsed: true,
               items: [
                 { label: "Contributing Guide", slug: "community/internals/contrib" },
                 { label: "Import Patterns", slug: "community/internals/jac_import_patterns" },

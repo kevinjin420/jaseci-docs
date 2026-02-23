@@ -1,6 +1,7 @@
 :root {
   --jac-accent: #ff6b35;
   --jac-accent-rgb: 255, 107, 53;
+  --sl-font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 }
 
 :root[data-theme='light'] {
