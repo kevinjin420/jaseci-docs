@@ -15,6 +15,7 @@ export default defineConfig({
   integrations: [
     starlight({
       plugins: [starlightLinksValidator({ errorOnLocalLinks: false })],
+      disable404Route: true,
       title: "Jac Docs",
       logo: {
         src: "./src/assets/logo.png",
@@ -219,50 +220,4 @@ export default defineConfig({
       ],
     }),
   ],
-  redirects: {
-    "/quick-guide/": "/",
-    "/getting-started/": "/",
-    "/quick-guide/first-graph/": "/quick-guide/what-makes-jac-different/",
-    "/quick-guide/thinking-in-graphs/":
-      "/quick-guide/what-makes-jac-different/",
-    "/quick-guide/first-app/": "/tutorials/first-app/build-ai-day-planner/",
-    "/quick-guide/first-fullstack-ai-app/":
-      "/tutorials/first-app/build-ai-day-planner/",
-    "/cli/": "/reference/cli/",
-    "/configuration/": "/reference/config/",
-    "/learn/installation/": "/quick-guide/install/",
-    "/learn/quickstart/": "/tutorials/language/osp/",
-    "/learn/tour/": "/quick-guide/",
-    "/tutorials/ai/ai-tools/": "/quick-guide/llmdocs/",
-    "/learn/jac-byllm/quickstart/": "/tutorials/ai/quickstart/",
-    "/learn/jac-byllm/with_llm/": "/reference/plugins/byllm/",
-    "/learn/jac-byllm/usage/": "/reference/plugins/byllm/",
-    "/learn/jac-byllm/agentic_ai/": "/tutorials/ai/agentic/",
-    "/learn/jac-ref/": "/reference/language/",
-    "/learn/jac-ref/foundation/": "/reference/language/foundation/",
-    "/learn/jac-ref/functions-objects/":
-      "/reference/language/functions-objects/",
-    "/learn/jac-ref/osp/": "/reference/language/osp/",
-    "/learn/jac-ref/full-stack/": "/reference/language/full-stack/",
-    "/learn/jac-ref/ai-integration/": "/reference/language/ai-integration/",
-    "/learn/jac-ref/concurrency/": "/reference/language/concurrency/",
-    "/learn/jac-ref/advanced/": "/reference/language/advanced/",
-    "/learn/jac-ref/ecosystem/": "/reference/language/ecosystem/",
-    "/learn/jac-ref/deployment/": "/reference/language/deployment/",
-    "/learn/jac-ref/appendices/": "/reference/language/appendices/",
-    "/internals/contrib/": "/community/",
-    "/communityhub/breaking_changes/": "/community/breaking-changes/",
-    "/communityhub/release_notes/jaclang/":
-      "/community/release_notes/jaclang/",
-    "/communityhub/release_notes/byllm/": "/community/release_notes/byllm/",
-    "/communityhub/release_notes/jac-client/":
-      "/community/release_notes/jac-client/",
-    "/communityhub/release_notes/jac-scale/":
-      "/community/release_notes/jac-scale/",
-    "/communityhub/release_notes/jac-cloud/":
-      "/community/release_notes/jac-cloud/",
-    "/learn/examples/": "/tutorials/examples/",
-    "/learn/library_mode/": "/reference/language/library-mode/",
-    "/learn/superset_python/": "/reference/language/python-integration/",
-  },
 });
