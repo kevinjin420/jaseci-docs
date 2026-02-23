@@ -1,39 +1,11 @@
 # Jac Programming Language
 
-> Jac is an AI-native programming language that supersets Python and JavaScript. It adds first-class LLM integration, object-spatial programming (graphs, walkers, nodes, edges), and scale-native deployment constructs. Full access to PyPI and npm ecosystems.
+> Jac is an AI-native programming language that supersets Python and JavaScript with built-in LLM integration, object-spatial programming, and scale-native deployment.
 
-## Quick Start
+## Docs for LLMs
 
-Install: `pip install jaseci`
-Run: `jac hello.jac`
-Deploy: `jac start --scale`
-
-## Key Features
-
-- **by llm()**: Replace function bodies with LLM calls. No prompt engineering required.
-- **Object-Spatial Programming**: Model domains as graphs with nodes, edges, and walkers.
-- **Full-Stack**: React-style frontend (jac-client) + Python backend in one language.
-- **Scale-Native**: `jac start --scale` deploys to Kubernetes with Redis, MongoDB automatically.
-- **Python Superset**: All Python code is valid Jac code. Import any PyPI package.
-
-## Core Syntax
-
-```jac
-# Nodes and edges define graph structure
-node Person { has name: str; }
-edge Knows { has since: int; }
-
-# Walkers traverse graphs
-walker Greeter {
-    can greet with Person entry {
-        print(f"Hello, {here.name}!");
-    }
-}
-
-# AI integration with by llm()
-can classify(text: str) -> str
-by llm(incl_info=(text));
-```
+- [Jac LLM Docs (comprehensive, auto-generated)](https://github.com/jaseci-labs/jaseci-llmdocs/releases/latest/download/jac-llmdocs.md)
+- [Quick Reference](/llms-full.txt)
 
 ## Documentation
 
@@ -44,7 +16,3 @@ by llm(incl_info=(text));
 - Full-Stack Guide: https://jac-lang.org/tutorials/fullstack/setup/
 - CLI Reference: https://jac-lang.org/reference/cli/
 - GitHub: https://github.com/Jaseci-Labs/jaseci
-
-## Optional
-
-- llms-full.txt: https://jac-lang.org/llms-full.txt

@@ -1,13 +1,25 @@
 ---
 title: LLM Docs
----# Using AI Tools with Jac
+---
+
+## Docs for LLMs
+
+This site follows the [llms.txt](https://llmstxt.org/) convention. The following files are available for AI agents and LLM context windows:
+
+| File | Description |
+|------|-------------|
+| [/llms.txt](/llms.txt) | Index of available LLM documentation |
+| [/llms-full.txt](/llms-full.txt) | Quick reference for Jac syntax and features |
+| [jac-llmdocs.md](https://github.com/jaseci-labs/jaseci-llmdocs/releases/latest/download/jac-llmdocs.md) | Comprehensive auto-generated language reference (recommended) |
+
+## Using AI Tools with Jac
 
 Jac is a new language. AI models tend to hallucinate syntax from outdated or nonexistent versions, and things break. To fix this, we maintain an official condensed language reference designed specifically for LLM context windows: [jaseci-llmdocs](https://github.com/jaseci-labs/jaseci-llmdocs).
 
 Grab the latest `jac-llmdocs.md` from the [releases page](https://github.com/jaseci-labs/jaseci-llmdocs/releases/latest/) and paste it into your AI tool's persistent context.
 
 ```bash
-curl -LO https://github.com/jaseci-labs/jaseci-llmdocs/releases/download/v0.10.4/jac-llmdocs.md
+curl -LO https://github.com/jaseci-labs/jaseci-llmdocs/releases/latest/download/jac-llmdocs.md
 ```
 
 ## Where to Put It
