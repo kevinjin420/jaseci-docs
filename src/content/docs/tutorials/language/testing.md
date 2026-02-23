@@ -6,7 +6,7 @@ Learn how to write and run tests for your Jac code.
 
 > **Prerequisites**
 >
-> - Completed: [Jac Basics](basics.md)
+> - Completed: [Jac Basics](/tutorials/language/basics/)
 > - Time: ~20 minutes
 
 ---
@@ -411,6 +411,6 @@ test "divide negative" {
 
 ## Next Steps
 
-- [Language Reference: Testing](../../reference/language/advanced.md) - Complete testing reference
-- [AI Integration](../ai/quickstart.md) - Test AI-integrated functions
-- [Production Deployment](../production/local.md) - Run as API server
+- [Language Reference: Testing](/reference/language/advanced/) - Complete testing reference
+- [AI Integration](/tutorials/ai/quickstart/) - Test AI-integrated functions
+- [Production Deployment](/tutorials/production/local/) - Run as API server

@@ -4,7 +4,7 @@ title: Build an AI Day Planner
 
 By the end of this tutorial, you'll have built a full-stack AI day planner -- a single application that lets you manage daily tasks (auto-categorized by AI) and generate meal shopping lists from natural language descriptions. Along the way, you'll learn every major feature of the Jac programming language.
 
-**Prerequisites:** [Installation](../../quick-guide/install.md) complete, [Hello World](../../quick-guide/hello-world.md) done.
+**Prerequisites:** [Installation](/quick-guide/install/) complete, [Hello World](/quick-guide/hello-world/) done.
 
 **Required Packages:** This tutorial uses **jaclang**, **jac-client**, **jac-scale**, and **byllm**. Install everything at once with:
 
@@ -236,7 +236,7 @@ With `obj`, you don't write `self` in method signatures -- it's always available
 - **f-strings** -- string interpolation with `f"...{expr}..."`
 - **Ternary** -- `value if condition else other`
 
-For a quick reference of all Jac syntax, see the [Syntax Cheatsheet](../../quick-guide/syntax-cheatsheet.md).
+For a quick reference of all Jac syntax, see the [Syntax Cheatsheet](/quick-guide/syntax-cheatsheet/).
 
 ---
 
@@ -584,7 +584,7 @@ jac start main.jac
 The server starts on port 8000 by default. Use `--port 3000` to pick a different port.
 
 :::caution[Common issue]
-If you see "Address already in use", another process is on that port. Use `--port` to pick a different one, or see [Troubleshooting](../troubleshooting.md#server-wont-start-address-already-in-use).
+If you see "Address already in use", another process is on that port. Use `--port` to pick a different one, or see [Troubleshooting](/tutorials/troubleshooting/#server-wont-start-address-already-in-use).
 :::
 
 
@@ -923,7 +923,7 @@ cl def:pub app -> JsxElement {
 jac start main.jac
 ```
 
-Open [http://localhost:8000](http://localhost:8000). You should see a clean day planner with an input field and an "Add" button. Try it:
+Open `http://localhost:8000`. You should see a clean day planner with an input field and an "Add" button. Try it:
 
 1. Type "Buy groceries" and press Enter -- the task appears
 2. Click the checkbox -- it gets crossed out
@@ -1680,7 +1680,7 @@ If adding a task silently fails (nothing happens), check the terminal running `j
 :::
 
 
-Open [http://localhost:8000](http://localhost:8000). The app now has two columns. Try it:
+Open `http://localhost:8000`. The app now has two columns. Try it:
 
 1. **Add "Buy groceries"** -- it appears with a "shopping" badge
 2. **Add "Schedule dentist appointment"** -- tagged "health"
@@ -2442,7 +2442,7 @@ export ANTHROPIC_API_KEY="your-key"
 jac start main.jac
 ```
 
-Open [http://localhost:8000](http://localhost:8000). You should see a login screen.
+Open `http://localhost:8000`. You should see a login screen.
 
 1. **Sign up** with any username and password
 2. **Add tasks** -- they auto-categorize just like Part 5
@@ -3493,7 +3493,7 @@ export ANTHROPIC_API_KEY="your-key"
 jac start main.jac
 ```
 
-Open [http://localhost:8000](http://localhost:8000). You should see a login screen -- that's authentication working with `walker:priv`.
+Open `http://localhost:8000`. You should see a login screen -- that's authentication working with `walker:priv`.
 
 1. **Sign up** with any username and password
 2. **Add tasks** -- they auto-categorize just like Part 5
@@ -3563,8 +3563,8 @@ Here's a quick reference of every Jac concept covered in this tutorial:
 
 ## Next Steps
 
-- **Deploy** -- [Deploy to Kubernetes](../production/kubernetes.md) with `jac-scale`
-- **Go deeper on walkers** -- [Object-Spatial Programming](../language/osp.md) covers advanced graph patterns
-- **More AI** -- [byLLM Quickstart](../ai/quickstart.md) for standalone examples and [Agentic AI](../ai/agentic.md) for tool-using agents
-- **Examples** -- [LittleX (Twitter Clone)](../examples/littlex.md), [RAG Chatbot](../examples/rag-chatbot.md)
-- **Language Reference** -- [Full Language Reference](../../reference/language/index.md) for complete syntax documentation
+- **Deploy** -- [Deploy to Kubernetes](/tutorials/production/kubernetes/) with `jac-scale`
+- **Go deeper on walkers** -- [Object-Spatial Programming](/tutorials/language/osp/) covers advanced graph patterns
+- **More AI** -- [byLLM Quickstart](/tutorials/ai/quickstart/) for standalone examples and [Agentic AI](/tutorials/ai/agentic/) for tool-using agents
+- **Examples** -- [LittleX (Twitter Clone)](/tutorials/examples/littlex/), [RAG Chatbot](/tutorials/examples/rag-chatbot/)
+- **Language Reference** -- [Full Language Reference](/reference/language/) for complete syntax documentation

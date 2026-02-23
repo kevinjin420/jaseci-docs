@@ -41,17 +41,17 @@ Social networks are naturally graph-shaped. Jac's OSP model makes building them 
 ## Prerequisites
 
 - Jac installed (`pip install jaseci`)
-- Completed [What Makes Jac Different](../../quick-guide/what-makes-jac-different.md) and [Part 1: Todo App](../first-app/part1-todo-app.md)
+- Completed [What Makes Jac Different](/quick-guide/what-makes-jac-different/) and [Part 1: Todo App](/tutorials/first-app/part1-todo-app/)
 - Basic understanding of Jac syntax
 
 **Key concepts used:**
 
 | Concept | Where to Learn |
 |---------|----------------|
-| Nodes & edges | [What Makes Jac Different](../../quick-guide/what-makes-jac-different.md), [OSP Tutorial](../language/osp.md) |
-| Walkers & `report` | [OSP Tutorial](../language/osp.md), [Part 3](../first-app/part3-multi-user.md) |
-| `jac start` API | [Part 1: Todo App](../first-app/part1-todo-app.md) |
-| Typed edges | [OSP Tutorial](../language/osp.md#edges-named-relationships) |
+| Nodes & edges | [What Makes Jac Different](/quick-guide/what-makes-jac-different/), [OSP Tutorial](/tutorials/language/osp/) |
+| Walkers & `report` | [OSP Tutorial](/tutorials/language/osp/), [Part 3](/tutorials/first-app/part3-multi-user/) |
+| `jac start` API | [Part 1: Todo App](/tutorials/first-app/part1-todo-app/) |
+| Typed edges | [OSP Tutorial](/tutorials/language/osp/#edges-named-relationships) |
 
 ---
 
@@ -303,5 +303,5 @@ The complete source code is available at:
 
 ## Next Examples
 
-- [EmailBuddy](emailbuddy.md) - AI-powered email assistant
-- [RAG Chatbot](rag-chatbot.md) - Document Q&A with retrieval
+- [EmailBuddy](/tutorials/examples/emailbuddy/) - AI-powered email assistant
+- [RAG Chatbot](/tutorials/examples/rag-chatbot/) - Document Q&A with retrieval

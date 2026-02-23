@@ -1100,6 +1100,6 @@ This eliminates the need for manual `kubectl create secret` commands after deplo
 
 ## Related Resources
 
-- [Local API Server Tutorial](../../tutorials/production/local.md)
-- [Kubernetes Deployment Tutorial](../../tutorials/production/kubernetes.md)
-- [Backend Integration Tutorial](../../tutorials/fullstack/backend.md)
+- [Local API Server Tutorial](/tutorials/production/local/)
+- [Kubernetes Deployment Tutorial](/tutorials/production/kubernetes/)
+- [Backend Integration Tutorial](/tutorials/fullstack/backend/)

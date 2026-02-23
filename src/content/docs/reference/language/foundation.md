@@ -1180,7 +1180,7 @@ with entry {
 }
 ```
 
-See [Part V: AI Integration](ai-integration.md) for detailed LLM usage.
+See [Part V: AI Integration](/reference/language/ai-integration/) for detailed LLM usage.
 
 ### 10 Operator Precedence
 
@@ -1692,9 +1692,9 @@ def example() {
 
 **Tutorials:**
 
-- [Jac Basics](../../tutorials/language/basics.md) - Step-by-step introduction to Jac syntax
-- [Hello World](../../quick-guide/hello-world.md) - Your first Jac program
+- [Jac Basics](/tutorials/language/basics/) - Step-by-step introduction to Jac syntax
+- [Hello World](/quick-guide/hello-world/) - Your first Jac program
 
 **Related Reference:**
 
-- [Part II: Functions & Objects](functions-objects.md) - Classes, methods, inheritance
+- [Part II: Functions & Objects](/reference/language/functions-objects/) - Classes, methods, inheritance

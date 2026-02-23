@@ -6,7 +6,7 @@ Add user login, signup, and protected routes to your Jac application.
 
 > **Prerequisites**
 >
-> - Completed: [Backend Integration](backend.md)
+> - Completed: [Backend Integration](/tutorials/fullstack/backend/)
 > - Time: ~30 minutes
 
 ---
@@ -533,5 +533,5 @@ cl {
 
 ## Next Steps
 
-- [Routing](routing.md) - Multi-page applications with file-based routing
-- [Backend Integration](backend.md) - Calling walkers from frontend
+- [Routing](/tutorials/fullstack/routing/) - Multi-page applications with file-based routing
+- [Backend Integration](/tutorials/fullstack/backend/) - Calling walkers from frontend

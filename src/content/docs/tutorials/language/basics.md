@@ -6,7 +6,7 @@ Learn Jac syntax and fundamentals, especially if you're coming from Python.
 
 > **Prerequisites**
 >
-> - Completed: [Hello World](../../quick-guide/hello-world.md)
+> - Completed: [Hello World](/quick-guide/hello-world/)
 > - Familiar with: Python basics
 > - Time: ~30 minutes
 
@@ -412,5 +412,5 @@ with entry {
 
 ## Next Steps
 
-- [Object-Spatial Programming](osp.md) - Learn nodes, edges, and walkers
-- [Testing](testing.md) - Write tests for your Jac code
+- [Object-Spatial Programming](/tutorials/language/osp/) - Learn nodes, edges, and walkers
+- [Testing](/tutorials/language/testing/) - Write tests for your Jac code

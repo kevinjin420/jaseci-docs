@@ -492,10 +492,10 @@ impl Calculator.multiply {
 
 **Tutorials:**
 
-- [Jac Basics](../../tutorials/language/basics.md) - Objects, functions, and syntax
-- [Testing](../../tutorials/language/testing.md) - Write tests for your code
+- [Jac Basics](/tutorials/language/basics/) - Objects, functions, and syntax
+- [Testing](/tutorials/language/testing/) - Write tests for your code
 
 **Related Reference:**
 
-- [Part I: Foundation](foundation.md) - Variables, types, control flow
-- [Part III: OSP](osp.md) - Nodes, edges, walkers
+- [Part I: Foundation](/reference/language/foundation/) - Variables, types, control flow
+- [Part III: OSP](/reference/language/osp/) - Nodes, edges, walkers

@@ -44,9 +44,9 @@ export OPENAI_API_KEY="your-key"
 
 | Concept | Where to Learn |
 |---------|----------------|
-| `by llm()` | [byLLM Quickstart](../ai/quickstart.md) |
-| `obj` structured types | [Structured Outputs](../ai/structured-outputs.md), [Part 2](../first-app/part2-ai-features.md) |
-| `enum` types | [Part 2: Add AI](../first-app/part2-ai-features.md) |
+| `by llm()` | [byLLM Quickstart](/tutorials/ai/quickstart/) |
+| `obj` structured types | [Structured Outputs](/tutorials/ai/structured-outputs/), [Part 2](/tutorials/first-app/part2-ai-features/) |
+| `enum` types | [Part 2: Add AI](/tutorials/first-app/part2-ai-features/) |
 
 ---
 
@@ -318,5 +318,5 @@ Each run produces different layouts as the AI creates unique levels.
 
 ## Next Examples
 
-- [EmailBuddy](emailbuddy.md) - AI-powered email assistant
-- [LittleX](littlex.md) - Social media platform
+- [EmailBuddy](/tutorials/examples/emailbuddy/) - AI-powered email assistant
+- [LittleX](/tutorials/examples/littlex/) - Social media platform

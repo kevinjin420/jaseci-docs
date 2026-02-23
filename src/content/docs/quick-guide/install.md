@@ -164,11 +164,11 @@ If you encounter issues during first-time setup or after upgrading, `jac purge` 
 
 ## For Contributors
 
-See the [Contributing Guide](../community/contributing.md) for development setup.
+See the [Contributing Guide](/community/internals/contrib/) for development setup.
 
 ---
 
 ## Next Steps
 
-- [Hello World](hello-world.md) - Write your first program
-- [Build Your First App](../tutorials/first-app/part1-todo-app.md) - Build a complete full-stack application
+- [Hello World](/quick-guide/hello-world/) - Write your first program
+- [Build Your First App](/tutorials/first-app/part1-todo-app/) - Build a complete full-stack application

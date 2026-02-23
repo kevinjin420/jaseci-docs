@@ -12,9 +12,9 @@ Choose a learning path based on your goals and background.
 
 **Path: AI Integration**
 
-1. [byLLM Quickstart](../tutorials/ai/quickstart.md) - Basic LLM integration
-2. [Structured Outputs](../tutorials/ai/structured-outputs.md) - Type-safe AI responses
-3. [Agentic AI](../tutorials/ai/agentic.md) - Tool calling and ReAct patterns
+1. [byLLM Quickstart](/tutorials/ai/quickstart/) - Basic LLM integration
+2. [Structured Outputs](/tutorials/ai/structured-outputs/) - Type-safe AI responses
+3. [Agentic AI](/tutorials/ai/agentic/) - Tool calling and ReAct patterns
 
 **Key concept:** The `by llm()` syntax lets you delegate function bodies to AI models. The compiler generates prompts from function names, parameter names, and type signatures. Use `sem` for additional semantic context.
 
@@ -29,12 +29,12 @@ sem summarize = "Summarize the article in 2-3 sentences.";
 
 **Path: Full-Stack Development**
 
-1. [Project Setup](../tutorials/fullstack/setup.md) - Create a Jac web project
-2. [React-Style Components](../tutorials/fullstack/components.md) - Build UI with JSX
-3. [State & Effects](../tutorials/fullstack/state.md) - Reactive state management
-4. [Backend Integration](../tutorials/fullstack/backend.md) - Connect frontend to walkers
-5. [Authentication](../tutorials/fullstack/auth.md) - Add user login
-6. [Routing](../tutorials/fullstack/routing.md) - Multi-page apps
+1. [Project Setup](/tutorials/fullstack/setup/) - Create a Jac web project
+2. [React-Style Components](/tutorials/fullstack/components/) - Build UI with JSX
+3. [State & Effects](/tutorials/fullstack/state/) - Reactive state management
+4. [Backend Integration](/tutorials/fullstack/backend/) - Connect frontend to walkers
+5. [Authentication](/tutorials/fullstack/auth/) - Add user login
+6. [Routing](/tutorials/fullstack/routing/) - Multi-page apps
 
 **Key concept:** Write frontend and backend in one file. The `cl { }` block marks client-side code.
 
@@ -61,9 +61,9 @@ cl {
 
 **Path: Core Language**
 
-1. [Jac Basics](../tutorials/language/basics.md) - Syntax and fundamentals
-2. [Object-Spatial Programming](../tutorials/language/osp.md) - Nodes, edges, walkers
-3. [Testing](../tutorials/language/testing.md) - Write and run tests
+1. [Jac Basics](/tutorials/language/basics/) - Syntax and fundamentals
+2. [Object-Spatial Programming](/tutorials/language/osp/) - Nodes, edges, walkers
+3. [Testing](/tutorials/language/testing/) - Write and run tests
 
 **Key concept:** Jac supersets Python and JavaScript, adding graphs as first-class citizens and walkers for graph traversal.
 
@@ -85,8 +85,8 @@ walker find_friends {
 
 **Path: Production Deployment**
 
-1. [Local API Server](../tutorials/production/local.md) - Run as HTTP server
-2. [Deploy to Kubernetes](../tutorials/production/kubernetes.md) - Scale with jac-scale
+1. [Local API Server](/tutorials/production/local/) - Run as HTTP server
+2. [Deploy to Kubernetes](/tutorials/production/kubernetes/) - Scale with jac-scale
 
 **Key concept:** One command transforms your Jac code into a production API with auto-provisioned infrastructure.
 
@@ -113,7 +113,7 @@ You'll feel at home. Jac supersets Python.
 - Type annotations encouraged
 - New keywords: `node`, `edge`, `walker`, `has`, `can`
 
-**Start here:** [Jac Basics](../tutorials/language/basics.md)
+**Start here:** [Jac Basics](/tutorials/language/basics/)
 
 ---
 
@@ -133,7 +133,7 @@ Jac's frontend syntax will look familiar (JSX-style).
 - No `const`/`let` - just variable assignment
 - Type annotations use `:` not TypeScript syntax
 
-**Start here:** [Full-Stack Setup](../tutorials/fullstack/setup.md)
+**Start here:** [Full-Stack Setup](/tutorials/fullstack/setup/)
 
 ---
 
@@ -145,7 +145,7 @@ Jac's frontend syntax will look familiar (JSX-style).
 2. **Graph thinking** - Model data as nodes and edges
 3. **Walker pattern** - Computation that moves through data
 
-**Start here:** [Hello World](hello-world.md) → [Build Your First App](../tutorials/first-app/part1-todo-app.md)
+**Start here:** [Hello World](/quick-guide/hello-world/) → [Build Your First App](/tutorials/first-app/part1-todo-app/)
 
 ---
 
@@ -155,12 +155,12 @@ When you need details:
 
 | Resource | Use For |
 |----------|---------|
-| [Language Reference](../reference/language/index.md) | Complete syntax and semantics |
-| [CLI Reference](../reference/cli/index.md) | All `jac` commands |
-| [Configuration](../reference/config/index.md) | `jac.toml` settings |
-| [byLLM Reference](../reference/plugins/byllm.md) | AI integration details |
-| [jac-client Reference](../reference/plugins/jac-client.md) | Frontend framework |
-| [jac-scale Reference](../reference/plugins/jac-scale.md) | Production deployment |
+| [Language Reference](/reference/language/) | Complete syntax and semantics |
+| [CLI Reference](/reference/cli/) | All `jac` commands |
+| [Configuration](/reference/config/) | `jac.toml` settings |
+| [byLLM Reference](/reference/plugins/byllm/) | AI integration details |
+| [jac-client Reference](/reference/plugins/jac-client/) | Frontend framework |
+| [jac-scale Reference](/reference/plugins/jac-scale/) | Production deployment |
 
 ---
 
@@ -170,10 +170,10 @@ Learn by studying complete applications:
 
 | Example | Description | Difficulty |
 |---------|-------------|------------|
-| [LittleX](../tutorials/examples/littlex.md) | Twitter clone in 200 lines | Intermediate |
-| [EmailBuddy](../tutorials/examples/emailbuddy.md) | AI email assistant | Intermediate |
-| [RAG Chatbot](../tutorials/examples/rag-chatbot.md) | Document Q&A with MCP | Advanced |
-| [RPG Generator](../tutorials/examples/rpg.md) | AI-generated game levels | Advanced |
+| [LittleX](/tutorials/examples/littlex/) | Twitter clone in 200 lines | Intermediate |
+| [EmailBuddy](/tutorials/examples/emailbuddy/) | AI email assistant | Intermediate |
+| [RAG Chatbot](/tutorials/examples/rag-chatbot/) | Document Q&A with MCP | Advanced |
+| [RPG Generator](/tutorials/examples/rpg/) | AI-generated game levels | Advanced |
 
 ---
 

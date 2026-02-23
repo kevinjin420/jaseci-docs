@@ -10,9 +10,9 @@ Jac extends its capabilities through a plugin ecosystem. These plugins provide A
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
-| [byLLM](byllm.md) | AI/LLM integration with Meaning-Typed Programming | `pip install byllm` |
-| [jac-client](jac-client.md) | Full-stack web development with React-style components | `pip install jac-client` |
-| [jac-scale](jac-scale.md) | Cloud-native deployment and scaling | `pip install jac-scale` |
+| [byLLM](/reference/plugins/byllm/) | AI/LLM integration with Meaning-Typed Programming | `pip install byllm` |
+| [jac-client](/reference/plugins/jac-client/) | Full-stack web development with React-style components | `pip install jac-client` |
+| [jac-scale](/reference/plugins/jac-scale/) | Cloud-native deployment and scaling | `pip install jac-scale` |
 
 ---
 
@@ -49,7 +49,7 @@ glob llm = Model(model_name="gpt-4o");
 def translate(text: str, language: str) -> str by llm();
 ```
 
-[Full byLLM Reference →](byllm.md)
+[Full byLLM Reference →](/reference/plugins/byllm/)
 
 ---
 
@@ -72,7 +72,7 @@ cl {
 }
 ```
 
-[Full jac-client Reference →](jac-client.md)
+[Full jac-client Reference →](/reference/plugins/jac-client/)
 
 ---
 
@@ -88,7 +88,7 @@ jac start app.jac
 jac scale deploy --replicas 3
 ```
 
-[Full jac-scale Reference →](jac-scale.md)
+[Full jac-scale Reference →](/reference/plugins/jac-scale/)
 
 ---
 
@@ -104,4 +104,4 @@ Jac uses a pluggy-based plugin system that allows extending the compiler and run
 
 ## Creating Plugins
 
-See the [Internals documentation](../../community/internals/) for information on creating custom plugins.
+See the [Contributing Guide](/community/internals/contrib/) for information on creating custom plugins.

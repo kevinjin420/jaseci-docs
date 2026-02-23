@@ -1022,9 +1022,9 @@ If `MainContent` throws an error, only that boundary's fallback is shown, while 
 
 ## Related Resources
 
-- [Fullstack Setup Tutorial](../../tutorials/fullstack/setup.md)
-- [Components Tutorial](../../tutorials/fullstack/components.md)
-- [State Management Tutorial](../../tutorials/fullstack/state.md)
-- [Backend Integration Tutorial](../../tutorials/fullstack/backend.md)
-- [Authentication Tutorial](../../tutorials/fullstack/auth.md)
-- [Routing Tutorial](../../tutorials/fullstack/routing.md)
+- [Fullstack Setup Tutorial](/tutorials/fullstack/setup/)
+- [Components Tutorial](/tutorials/fullstack/components/)
+- [State Management Tutorial](/tutorials/fullstack/state/)
+- [Backend Integration Tutorial](/tutorials/fullstack/backend/)
+- [Authentication Tutorial](/tutorials/fullstack/auth/)
+- [Routing Tutorial](/tutorials/fullstack/routing/)

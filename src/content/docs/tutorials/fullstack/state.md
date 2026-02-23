@@ -6,7 +6,7 @@ Manage reactive state with hooks and the `has` keyword.
 
 > **Prerequisites**
 >
-> - Completed: [React-Style Components](components.md)
+> - Completed: [React-Style Components](/tutorials/fullstack/components/)
 > - Time: ~30 minutes
 
 ---
@@ -432,5 +432,5 @@ cl {
 
 ## Next Steps
 
-- [Backend Integration](backend.md) - Fetch data from walkers
-- [Authentication](auth.md) - Add user login
+- [Backend Integration](/tutorials/fullstack/backend/) - Fetch data from walkers
+- [Authentication](/tutorials/fullstack/auth/) - Add user login

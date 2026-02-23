@@ -4,7 +4,7 @@ title: "Legacy: Walkers & Auth (Part 3)"
 
 Your todo app has AI, but everyone shares the same data. Time to fix that. You'll introduce **walkers** -- Jac's native pattern for per-user graph operations -- add **login/signup**, build a persistent **meal planner** with structured AI outputs, and organize the code into **multiple files**.
 
-**Prerequisites:** Complete [Part 2](part2-ai-features.md) first.
+**Prerequisites:** Complete [Part 2](/tutorials/first-app/part2-ai-features/) first.
 
 ---
 
@@ -14,7 +14,7 @@ In Parts 1 and 2, every `def:pub` function operates on the same `root` node. If 
 
 **Walkers** solve this. A `walker:priv` requires authentication and operates on the logged-in user's *private* root node. User A's todos stay separate from User B's -- same code, isolated data, enforced by the runtime.
 
-For a detailed comparison table of when to use functions vs walkers, see [Functions vs Walkers](../language/osp.md#when-to-use-functions-vs-walkers) in the OSP tutorial.
+For a detailed comparison table of when to use functions vs walkers, see [Functions vs Walkers](/tutorials/language/osp/#when-to-use-functions-vs-walkers) in the OSP tutorial.
 
 ---
 
@@ -39,7 +39,7 @@ The core keywords:
 - **`report`** -- send data back to the caller
 
 :::caution[Common issue]
-If walker reports come back empty, make sure you have `visit [-->]` to send the walker to connected nodes, and that the node type in `with X entry` matches your graph. See [Troubleshooting: Walker reports are empty](../troubleshooting.md#walker-reports-are-empty).
+If walker reports come back empty, make sure you have `visit [-->]` to send the walker to connected nodes, and that the node type in `with X entry` matches your graph. See [Troubleshooting: Walker reports are empty](/tutorials/troubleshooting/#walker-reports-are-empty).
 :::
 
 
@@ -1586,7 +1586,7 @@ If you see "Address already in use", use `--port` to pick a different port: `jac
 :::
 
 
-Open [http://localhost:8000](http://localhost:8000). You should see a login screen -- that's the auth working.
+Open `http://localhost:8000`. You should see a login screen -- that's the auth working.
 
 1. **Sign up** with any username and password
 2. **Add todos** -- they auto-categorize just like Part 2
@@ -1632,7 +1632,7 @@ The new concepts from this part:
 
 ## Next Steps
 
-- **Deploy** -- [Deploy to Kubernetes](../production/kubernetes.md) with `jac-scale`
-- **Go deeper on walkers** -- [Object-Spatial Programming](../language/osp.md) covers advanced graph patterns
-- **More AI** -- [byLLM Quickstart](../ai/quickstart.md) and [Agentic AI](../ai/agentic.md) for tool-using agents
-- **Examples** -- [LittleX (Twitter Clone)](../examples/littlex.md), [RAG Chatbot](../examples/rag-chatbot.md)
+- **Deploy** -- [Deploy to Kubernetes](/tutorials/production/kubernetes/) with `jac-scale`
+- **Go deeper on walkers** -- [Object-Spatial Programming](/tutorials/language/osp/) covers advanced graph patterns
+- **More AI** -- [byLLM Quickstart](/tutorials/ai/quickstart/) and [Agentic AI](/tutorials/ai/agentic/) for tool-using agents
+- **Examples** -- [LittleX (Twitter Clone)](/tutorials/examples/littlex/), [RAG Chatbot](/tutorials/examples/rag-chatbot/)

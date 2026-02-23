@@ -626,5 +626,5 @@ test "calculation no message" {
 
 ## Related Resources
 
-- [Testing Tutorial](../tutorials/language/testing.md)
-- [CLI Reference](cli/index.md)
+- [Testing Tutorial](/tutorials/language/testing/)
+- [CLI Reference](/reference/cli/)

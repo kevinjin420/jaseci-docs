@@ -6,7 +6,7 @@ Build reusable UI components with JSX syntax.
 
 > **Prerequisites**
 >
-> - Completed: [Project Setup](setup.md)
+> - Completed: [Project Setup](/tutorials/fullstack/setup/)
 > - Time: ~30 minutes
 
 ---
@@ -396,5 +396,5 @@ cl {
 
 ## Next Steps
 
-- [State Management](state.md) - Reactive state with `has`
-- [Backend Integration](backend.md) - Connect to walkers
+- [State Management](/tutorials/fullstack/state/) - Reactive state with `has`
+- [Backend Integration](/tutorials/fullstack/backend/) - Connect to walkers

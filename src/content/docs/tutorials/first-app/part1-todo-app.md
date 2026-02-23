@@ -4,7 +4,7 @@ title: "Legacy: Todo App (Part 1)"
 
 Build a working full-stack todo app in a single file. No frameworks, no boilerplate -- just Jac.
 
-**Prerequisites:** [Installation](../../quick-guide/install.md) complete, [Hello World](../../quick-guide/hello-world.md) done.
+**Prerequisites:** [Installation](/quick-guide/install/) complete, [Hello World](/quick-guide/hello-world/) done.
 
 ---
 
@@ -98,7 +98,7 @@ There's a lot of new syntax here. Let's unpack it:
 
 **`root ++> Todo(...)`** creates a new Todo node and connects it to `root` with an edge. `root` is the graph's built-in entry point -- think of it as the top of your data tree. The `++>` operator returns a list, so `todo[0]` grabs the newly created node.
 
-**`[root-->](?:Todo)`** reads as "all nodes connected from root that are Todo nodes." It's a graph query -- the `(?:Type)` syntax filters by node type.
+**`[root-->](/tutorials/first-app/?:Todo/)`** reads as "all nodes connected from root that are Todo nodes." It's a graph query -- the `(?:Type)` syntax filters by node type.
 
 Your data ends up looking like this:
 
@@ -326,11 +326,11 @@ jac start main.jac
 This starts on port 8000 by default. Use `jac start main.jac --port 3000` to pick a different port.
 
 :::caution[Common issue]
-If you see "Address already in use", another process is on port 8000. Use `--port` to pick a different port, or see [Troubleshooting: Server won't start](../troubleshooting.md#server-wont-start-address-already-in-use).
+If you see "Address already in use", another process is on port 8000. Use `--port` to pick a different port, or see [Troubleshooting: Server won't start](/tutorials/troubleshooting/#server-wont-start-address-already-in-use).
 :::
 
 
-Open [http://localhost:8000](http://localhost:8000). You should see a clean todo app with an input field and an "Add" button. Try it:
+Open `http://localhost:8000`. You should see a clean todo app with an input field and an "Add" button. Try it:
 
 1. Type "Buy groceries" and press Enter -- the todo appears
 2. Click the checkbox -- it gets crossed out
@@ -348,7 +348,7 @@ You built a full-stack app in a single file with no boilerplate. Here are the Ja
 - **`node`** -- persistent data types stored in the graph
 - **`def:pub`** -- functions that auto-become HTTP endpoints
 - **`root ++>`** -- create nodes and connect them to the graph
-- **`[root-->](?:Todo)`** -- query nodes by type
+- **`[root-->](/tutorials/first-app/?:Todo/)`** -- query nodes by type
 - **`cl def:pub app`** -- client-side component that runs in the browser
 - **`has`** -- reactive state that triggers re-renders
 - **`can with entry`** -- lifecycle hook (runs on mount)
@@ -358,4 +358,4 @@ You built a full-stack app in a single file with no boilerplate. Here are the Ja
 
 ## Next Step
 
-Your todo app works, but every user shares the same data and there's nothing intelligent about it. In [Part 2](part2-ai-features.md), you'll add AI-powered categorization with just a few lines of code.
+Your todo app works, but every user shares the same data and there's nothing intelligent about it. In [Part 2](/tutorials/first-app/part2-ai-features/), you'll add AI-powered categorization with just a few lines of code.

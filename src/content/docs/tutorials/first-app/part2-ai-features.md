@@ -4,7 +4,7 @@ title: "Legacy: Add AI (Part 2)"
 
 Your todo app works, but it's not very smart. Let's fix that -- you'll add AI-powered categorization so every todo automatically gets labeled as "work", "shopping", "health", and so on. It takes about five lines of new code.
 
-**Prerequisites:** Complete [Part 1](part1-todo-app.md) first.
+**Prerequisites:** Complete [Part 1](/tutorials/first-app/part1-todo-app/) first.
 
 :::tip[Starting fresh]
 If you have leftover data from Part 1, delete the `.jac/data/` directory before running Part 2. The schema changes in this part (adding `category`) may conflict with old Todo nodes.
@@ -22,7 +22,7 @@ export ANTHROPIC_API_KEY="your-key-here"
 ```
 
 :::caution[Common issue]
-If you get "API key not found" errors, make sure the environment variable is set in the same terminal where you run `jac`. If adding a todo silently fails (nothing happens), check the terminal running `jac start` for error messages -- a missing or invalid API key causes a server error. See [Troubleshooting: API key issues](../troubleshooting.md#api-key-not-found).
+If you get "API key not found" errors, make sure the environment variable is set in the same terminal where you run `jac`. If adding a todo silently fails (nothing happens), check the terminal running `jac start` for error messages -- a missing or invalid API key causes a server error. See [Troubleshooting: API key issues](/tutorials/troubleshooting/#api-key-not-found).
 :::
 
 
@@ -354,7 +354,7 @@ If you see "Address already in use", use `--port` to pick a different port: `jac
 :::
 
 
-Open [http://localhost:8000](http://localhost:8000). The app looks the same as before, but now when you add a todo it takes a moment longer -- the LLM is categorizing it behind the scenes. Try it:
+Open `http://localhost:8000`. The app looks the same as before, but now when you add a todo it takes a moment longer -- the LLM is categorizing it behind the scenes. Try it:
 
 1. Add "Buy groceries" -- it appears with a "shopping" badge
 2. Add "Schedule dentist appointment" -- tagged as "health"
@@ -379,6 +379,6 @@ You added AI to your app with minimal code changes:
 
 ## Next Step
 
-Your app now has AI, but there's still a problem: every user shares the same todos. In [Part 3](part3-multi-user.md), you'll introduce **walkers** for per-user data isolation, add **authentication**, build an AI-powered **meal planner** with structured outputs, and organize the project into **multiple files**.
+Your app now has AI, but there's still a problem: every user shares the same todos. In [Part 3](/tutorials/first-app/part3-multi-user/), you'll introduce **walkers** for per-user data isolation, add **authentication**, build an AI-powered **meal planner** with structured outputs, and organize the project into **multiple files**.
 
-**Want to go deeper on AI?** See the [byLLM Quickstart](../ai/quickstart.md) for standalone examples and the [byLLM Reference](../../reference/plugins/byllm.md) for full API docs.
+**Want to go deeper on AI?** See the [byLLM Quickstart](/tutorials/ai/quickstart/) for standalone examples and the [byLLM Reference](/reference/plugins/byllm/) for full API docs.

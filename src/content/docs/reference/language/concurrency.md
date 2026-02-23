@@ -137,5 +137,5 @@ with entry {
 
 **Related Reference:**
 
-- [Part I: Foundation](foundation.md) - Control flow basics
-- [Part V: AI Integration](ai-integration.md) - Async LLM calls
+- [Part I: Foundation](/reference/language/foundation/) - Control flow basics
+- [Part V: AI Integration](/reference/language/ai-integration/) - Async LLM calls

@@ -17,8 +17,8 @@ title: "Part III: OSP"
 
 > **Related Sections:**
 >
-> - [Graph Operators](foundation.md#7-graph-operators-osp) - Connection and edge reference syntax
-> - [Pipe Operators](foundation.md#8-pipe-operators) - Spawn traversal modes
+> - [Graph Operators](/reference/language/foundation/#7-graph-operators-osp) - Connection and edge reference syntax
+> - [Pipe Operators](/reference/language/foundation/#8-pipe-operators) - Spawn traversal modes
 
 ## Introduction to OSP
 
@@ -461,14 +461,14 @@ These keywords have special meaning in specific contexts:
 
 | Reference | Valid Context | Description | See Also |
 |-----------|---------------|-------------|----------|
-| `self` | Any method/ability | Current instance (walker, node, object) | [Part II: Functions](functions-objects.md#object-oriented-programming) |
+| `self` | Any method/ability | Current instance (walker, node, object) | [Part II: Functions](/reference/language/functions-objects/#object-oriented-programming) |
 | `here` | Walker ability | Current node the walker is visiting | [Walkers](#walkers) |
 | `visitor` | Node ability | The walker that triggered this ability | [Nodes](#nodes) |
 | `root` | Anywhere | Root node of the current graph | [Graph Construction](#graph-construction) |
-| `super` | Subclass method | Parent class reference | [Part II](functions-objects.md#2-inheritance) |
-| `init` | Object body | Constructor method name | [Part II](functions-objects.md#1-objects-classes) |
-| `postinit` | Object body | Post-constructor hook | [Part I](foundation.md#2-instance-variables-has) |
-| `props` | JSX context | Component props reference | [Part IV: Full-Stack](full-stack.md#client-side-development-jsx) |
+| `super` | Subclass method | Parent class reference | [Part II](/reference/language/functions-objects/#2-inheritance) |
+| `init` | Object body | Constructor method name | [Part II](/reference/language/functions-objects/#1-objects-classes) |
+| `postinit` | Object body | Post-constructor hook | [Part I](/reference/language/foundation/#2-instance-variables-has) |
+| `props` | JSX context | Component props reference | [Part IV: Full-Stack](/reference/language/full-stack/#client-side-development-jsx) |
 
 **Usage examples:**
 
@@ -850,8 +850,8 @@ walker ShoppingCart {
 
 ## See Also
 
-- [Walker Responses](walker-responses.md) - Patterns for handling `.reports` array
-- [Graph Operations](graph-operations.md) - Quick reference for `++>`, `-->`, `del here`
-- [Build a Todo App](../../tutorials/fullstack/todo-app.md) - Full-stack tutorial using OSP concepts
-- [OSP Tutorial](../../tutorials/language/osp.md) - Hands-on tutorial with exercises
-- [What Makes Jac Different](../../quick-guide/what-makes-jac-different.md) - Gentle introduction to Jac's core concepts
+- [Walker Responses](/reference/language/walker-responses/) - Patterns for handling `.reports` array
+- [Graph Operations](/reference/language/graph-operations/) - Quick reference for `++>`, `-->`, `del here`
+- [Build a Todo App](/tutorials/fullstack/todo-app/) - Full-stack tutorial using OSP concepts
+- [OSP Tutorial](/tutorials/language/osp/) - Hands-on tutorial with exercises
+- [What Makes Jac Different](/quick-guide/what-makes-jac-different/) - Gentle introduction to Jac's core concepts

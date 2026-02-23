@@ -6,7 +6,7 @@ Build AI agents that can use tools and reason through problems.
 
 > **Prerequisites**
 >
-> - Completed: [Structured Outputs](structured-outputs.md)
+> - Completed: [Structured Outputs](/tutorials/ai/structured-outputs/)
 > - Time: ~45 minutes
 
 ---
@@ -444,6 +444,6 @@ with entry {
 
 ## Next Steps
 
-- [byLLM Reference](../../reference/plugins/byllm.md) - Complete tool documentation
-- [Examples: EmailBuddy](../examples/emailbuddy.md) - Agentic email assistant
-- [Full-Stack Tutorial](../fullstack/setup.md) - Add UI to your agent
+- [byLLM Reference](/reference/plugins/byllm/) - Complete tool documentation
+- [Examples: EmailBuddy](/tutorials/examples/emailbuddy/) - Agentic email assistant
+- [Full-Stack Tutorial](/tutorials/fullstack/setup/) - Add UI to your agent

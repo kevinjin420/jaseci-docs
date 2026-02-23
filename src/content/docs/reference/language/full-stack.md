@@ -8,8 +8,8 @@ title: "Part IV: Full-Stack"
 - [Server-Side Development](#server-side-development) - Server blocks, REST APIs
 - [Client-Side Development (JSX)](#client-side-development-jsx) - Client blocks, JSX syntax, state
 - [Server-Client Communication](#server-client-communication) - Calling walkers from client
-- [Authentication & Users](#23-authentication-users) - Login, SSO, user management
-- [Memory & Persistence](#24-memory-persistence) - Storage tiers, anchors
+- [Authentication & Users](#authentication--users) - Login, SSO, user management
+- [Memory & Persistence](#memory--persistence) - Storage tiers, anchors
 - [Development Tools](#development-tools) - HMR, debugging
 
 ---
@@ -416,7 +416,7 @@ jac start main.jac --port 8000
 
 ---
 
-## Authentication & Users {#23-authentication-users}
+## Authentication & Users
 
 ### 1 Built-in Auth Functions
 
@@ -505,7 +505,7 @@ client_secret = "your-google-client-secret"
 
 ---
 
-## Memory & Persistence {#24-memory-persistence}
+## Memory & Persistence
 
 ### 1 Memory Hierarchy
 
@@ -582,11 +582,11 @@ Provides:
 
 **Tutorials:**
 
-- [Full-Stack Project Setup](../../tutorials/fullstack/setup.md) - Create your first full-stack project
-- [React-Style Components](../../tutorials/fullstack/components.md) - Build UI components
-- [Backend Integration](../../tutorials/fullstack/backend.md) - Connect frontend to walkers
-- [Build a Todo App](../../tutorials/fullstack/todo-app.md) - Complete example
+- [Full-Stack Project Setup](/tutorials/fullstack/setup/) - Create your first full-stack project
+- [React-Style Components](/tutorials/fullstack/components/) - Build UI components
+- [Backend Integration](/tutorials/fullstack/backend/) - Connect frontend to walkers
+- [Build a Todo App](/tutorials/fullstack/todo-app/) - Complete example
 
 **Related Reference:**
 
-- [jac-client Reference](../plugins/jac-client.md) - Complete API documentation
+- [jac-client Reference](/reference/plugins/jac-client/) - Complete API documentation

@@ -287,7 +287,7 @@ create_dirs = true           # Auto-create directories
 
 Configuration priority: `jac.toml` > environment variables > defaults.
 
-See [Storage Reference](../plugins/jac-scale.md#storage) for the full storage API.
+See [Storage Reference](/reference/plugins/jac-scale/#storage) for the full storage API.
 
 ---
 
@@ -332,7 +332,7 @@ namespace = "myapp"
 walker_metrics = true
 ```
 
-See [Prometheus Metrics](../plugins/jac-scale.md#prometheus-metrics) for details.
+See [Prometheus Metrics](/reference/plugins/jac-scale/#prometheus-metrics) for details.
 
 **Kubernetes Secrets (jac-scale):**
 
@@ -342,9 +342,9 @@ OPENAI_API_KEY = "${OPENAI_API_KEY}"
 DATABASE_PASSWORD = "${DB_PASS}"
 ```
 
-See [Kubernetes Secrets](../plugins/jac-scale.md#kubernetes-secrets) for details.
+See [Kubernetes Secrets](/reference/plugins/jac-scale/#kubernetes-secrets) for details.
 
-See also [jac-scale Webhooks](../plugins/jac-scale.md#webhooks) and [Kubernetes Deployment](../plugins/jac-scale.md#kubernetes-deployment) for more options.
+See also [jac-scale Webhooks](/reference/plugins/jac-scale/#webhooks) and [Kubernetes Deployment](/reference/plugins/jac-scale/#kubernetes-deployment) for more options.
 
 ---
 
@@ -571,5 +571,5 @@ Each line is a filename or pattern that should be skipped during Jac compilation
 
 ## See Also
 
-- [CLI Reference](../cli/index.md) - Command-line interface documentation
-- [Plugin Management](../cli/index.md#plugin-management) - Managing plugins
+- [CLI Reference](/reference/cli/) - Command-line interface documentation
+- [Plugin Management](/reference/cli/#plugin-management) - Managing plugins

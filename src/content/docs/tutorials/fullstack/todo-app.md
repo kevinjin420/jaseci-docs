@@ -3,15 +3,15 @@ title: Build a Todo App
 ---# Build a Full-Stack Todo App with AI
 
 :::tip[New Tutorial Available]
-For a comprehensive, step-by-step guide to building a full-stack AI app, see the **[Build Your First App](../first-app/part1-todo-app.md)** tutorial series. It covers the same concepts in a more progressive format across three parts.
+For a comprehensive, step-by-step guide to building a full-stack AI app, see the **[Build Your First App](/tutorials/first-app/part1-todo-app/)** tutorial series. It covers the same concepts in a more progressive format across three parts.
 :::
 
 
 This tutorial walks you through building a complete full-stack application with Jac, covering server-side graph operations, client-side React UI, and AI-powered features using `by llm()`.
 
-> **Prerequisites:** Complete [Project Setup](setup.md) first.
+> **Prerequisites:** Complete [Project Setup](/tutorials/fullstack/setup/) first.
 >
-> **Reference:** [Walker Responses](../../reference/language/walker-responses.md) | [Graph Operations](../../reference/language/graph-operations.md)
+> **Reference:** [Walker Responses](/reference/language/walker-responses/) | [Graph Operations](/reference/language/graph-operations/)
 
 ---
 
@@ -646,7 +646,7 @@ def myFunc(input: str) -> MyType by llm();
 
 **Learn more:**
 
-- [Walker Responses](../../reference/language/walker-responses.md) - Deep dive into `.reports` patterns
-- [Graph Operations](../../reference/language/graph-operations.md) - Complete reference for graph operators
-- [byLLM Reference](../../reference/plugins/byllm.md) - Full AI integration documentation
-- [Deploy to Kubernetes](../production/kubernetes.md) - Production deployment
+- [Walker Responses](/reference/language/walker-responses/) - Deep dive into `.reports` patterns
+- [Graph Operations](/reference/language/graph-operations/) - Complete reference for graph operators
+- [byLLM Reference](/reference/plugins/byllm/) - Full AI integration documentation
+- [Deploy to Kubernetes](/tutorials/production/kubernetes/) - Production deployment

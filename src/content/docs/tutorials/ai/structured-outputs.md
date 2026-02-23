@@ -6,7 +6,7 @@ Get type-safe responses from LLMs with enums, objects, and lists.
 
 > **Prerequisites**
 >
-> - Completed: [byLLM Quickstart](quickstart.md)
+> - Completed: [byLLM Quickstart](/tutorials/ai/quickstart/)
 > - Time: ~30 minutes
 
 ---
@@ -404,6 +404,6 @@ If the LLM returns invalid types, byLLM will:
 
 ## Next Steps
 
-- [Agentic AI](agentic.md) - Add tools for the LLM to use
-- [byLLM Reference](../../reference/plugins/byllm.md) - Complete documentation
-- [Examples Gallery](../examples/index.md) - See structured outputs in action
+- [Agentic AI](/tutorials/ai/agentic/) - Add tools for the LLM to use
+- [byLLM Reference](/reference/plugins/byllm/) - Complete documentation
+- [Examples Gallery](/tutorials/examples/) - See structured outputs in action

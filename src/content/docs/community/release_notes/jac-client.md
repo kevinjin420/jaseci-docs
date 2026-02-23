@@ -2,7 +2,7 @@
 title: jac-client
 ---# Jac-Client Release Notes
 
-This document provides a summary of new features, improvements, and bug fixes in each version of **Jac-Client**. For details on changes that might require updates to your existing code, please refer to the [Breaking Changes](../breaking-changes.md) page.
+This document provides a summary of new features, improvements, and bug fixes in each version of **Jac-Client**. For details on changes that might require updates to your existing code, please refer to the [Breaking Changes](/community/breaking-changes/) page.
 
 ## jac-client 0.2.20 (Unreleased)
 
@@ -66,7 +66,7 @@ This document provides a summary of new features, improvements, and bug fixes in
 
 - **Configurable API Base URL**: Added `[plugins.client.api]` config section with `base_url` option. By default (empty), API calls use same-origin relative URLs. Set `base_url = "http://localhost:8000"` for cross-origin setups.
 - **Improved client bundling error handling and reliability:** Captures Vite/Bun output and displays concise, formatted errors after the API endpoint list; fixed the Bun install invocation to improve build reliability.
-- **BrowserRouter Migration**: Migrated client-side routing from `HashRouter` to `BrowserRouter`. URLs now use clean paths (`/about`, `/user/123`) instead of hash-based URLs (`#/about`, `#/user/123`). The `navigate()` helper uses `window.history.pushState` with synthetic `PopStateEvent` dispatch instead of setting `window.location.hash`. The Vite dev server config includes `appType: 'spa'` for history API fallback during development. [Breaking Change - See Migration Guide](../breaking-changes.md)
+- **BrowserRouter Migration**: Migrated client-side routing from `HashRouter` to `BrowserRouter`. URLs now use clean paths (`/about`, `/user/123`) instead of hash-based URLs (`#/about`, `#/user/123`). The `navigate()` helper uses `window.history.pushState` with synthetic `PopStateEvent` dispatch instead of setting `window.location.hash`. The Vite dev server config includes `appType: 'spa'` for history API fallback during development. [Breaking Change - See Migration Guide](/community/breaking-changes/)
 - **Auto-Prompt for Missing Client Dependencies**: When running `jac start` on a project without npm dependencies configured (no `jac.toml` or empty `[dependencies.npm]`), the CLI now detects the missing dependencies and interactively prompts the user to install the default jac-client packages (react, vite, etc.). Accepting writes the defaults to `jac.toml` and proceeds with the build. This follows the same pattern as the existing Bun auto-install prompt and eliminates the cryptic "Cannot find package 'vite'" error that previously occurred. Additionally, stale `node_modules` directories from prior failed installs are now automatically detected and cleaned up before reinstalling.
 
 ## jac-client 0.2.11
@@ -94,7 +94,7 @@ This document provides a summary of new features, improvements, and bug fixes in
 - **Reactive State Variables**: The `jac create --use client` template now uses the new `has` keyword for React state management. Instead of `[count, setCount] = useState(0);`, you can write `has count: int = 0;` and use direct assignment `count = count + 1;`. The compiler automatically generates the `useState` destructuring and transforms assignments to setter calls, providing cleaner and more intuitive state management syntax.
 - **Simplified Project Structure**: Reorganized the default project structure created by `jac create --use client`. The entry point is now `main.jac` at the project root instead of `src/app.jac`, and the `components/` directory is now at the project root instead of `src/components/`. This flatter structure reduces nesting and aligns with modern frontend project conventions. Existing projects using the `src/` structure continue to work but new projects use the simplified layout.
 
-- **Configurable Client Route Prefix**: Changed the default URL path for client-side apps from `/page/<app>` to `/cl/<app>`. The route prefix is now configurable via `cl_route_prefix` in the `[serve]` section of `jac.toml`. This allows customizing the URL structure for client apps (e.g., `/pages/MyApp` instead of `/cl/MyApp`). [Documentation](https://docs.jaseci.org/learn/tools/jac_serve/#routing-configuration)
+- **Configurable Client Route Prefix**: Changed the default URL path for client-side apps from `/page/<app>` to `/cl/<app>`. The route prefix is now configurable via `cl_route_prefix` in the `[serve]` section of `jac.toml`. This allows customizing the URL structure for client apps (e.g., `/pages/MyApp` instead of `/cl/MyApp`). [Documentation](/tutorials/production/local/)
 
 - **Base Route App Configuration**: Added `base_route_app` option in `jac.toml` `[serve]` section to serve a client app directly at the root `/` path. When configured, visiting `/` renders the specified client app instead of the API info page, making it easy to create single-page applications with clean URLs. Projects created with `jac create --use client` now default to `base_route_app = "app"`, so the app is served at `/` out of the box. [Documentation](https://docs.jaseci.org/learn/tools/project_config/#serve-section)
 

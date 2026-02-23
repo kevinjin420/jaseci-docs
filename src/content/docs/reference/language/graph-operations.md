@@ -6,9 +6,9 @@ This reference covers the core graph operations in Jac for creating, connecting,
 
 > **Related:**
 >
-> - [Walker Responses](walker-responses.md) - Understanding `.reports` and response handling
-> - [Part III: OSP](osp.md) - Walker and node fundamentals
-> - [Build a Todo App](../../tutorials/fullstack/todo-app.md) - Full tutorial using these patterns
+> - [Walker Responses](/reference/language/walker-responses/) - Understanding `.reports` and response handling
+> - [Part III: OSP](/reference/language/osp/) - Walker and node fundamentals
+> - [Build a Todo App](/tutorials/fullstack/todo-app/) - Full tutorial using these patterns
 
 ---
 

@@ -6,8 +6,8 @@ Connect your frontend components to Jac walkers for data fetching and mutations.
 
 > **Prerequisites**
 >
-> - Completed: [State Management](state.md)
-> - Familiar with: [What Makes Jac Different](../../quick-guide/what-makes-jac-different.md) (core concepts)
+> - Completed: [State Management](/tutorials/fullstack/state/)
+> - Familiar with: [What Makes Jac Different](/quick-guide/what-makes-jac-different/) (core concepts)
 > - Time: ~30 minutes
 
 ---
@@ -544,12 +544,12 @@ cl {
 
 ## Next Steps
 
-- [Authentication](auth.md) - Add user login
-- [Routing](routing.md) - Multi-page applications
-- [Build a Todo App](todo-app.md) - Complete full-stack example with AI integration
+- [Authentication](/tutorials/fullstack/auth/) - Add user login
+- [Routing](/tutorials/fullstack/routing/) - Multi-page applications
+- [Build a Todo App](/tutorials/fullstack/todo-app/) - Complete full-stack example with AI integration
 
 **Reference:**
 
-- [Walker Responses](../../reference/language/walker-responses.md) - Understanding `.reports` patterns
-- [Graph Operations](../../reference/language/graph-operations.md) - Node creation, traversal, deletion
-- [Part III: OSP Reference](../../reference/language/osp.md) - Complete walker and node language reference
+- [Walker Responses](/reference/language/walker-responses/) - Understanding `.reports` patterns
+- [Graph Operations](/reference/language/graph-operations/) - Node creation, traversal, deletion
+- [Part III: OSP Reference](/reference/language/osp/) - Complete walker and node language reference

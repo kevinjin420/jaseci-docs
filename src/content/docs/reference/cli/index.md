@@ -352,7 +352,7 @@ jac lint .
 jac lint . --ignore fixtures
 ```
 
-> **Lint Rules**: Configure rules via [`[check.lint]`](../config/index.md#checklint) in `jac.toml`. All enabled rules are treated as errors.
+> **Lint Rules**: Configure rules via [`[check.lint]`](/reference/config/#checklint) in `jac.toml`. All enabled rules are treated as errors.
 
 ---
 
@@ -975,7 +975,7 @@ jac script dev
 jac script --list
 ```
 
-See [Configuration: Scripts](../config/index.md#scripts) for defining scripts in `jac.toml`.
+See [Configuration: Scripts](/reference/config/#scripts) for defining scripts in `jac.toml`.
 
 ---
 
@@ -1186,6 +1186,6 @@ jac destroy main.jac
 
 ## See Also
 
-- [Project Configuration](../config/index.md)
-- [jac-scale Documentation](../plugins/jac-scale.md)
-- [Testing Guide](../testing.md)
+- [Project Configuration](/reference/config/)
+- [jac-scale Documentation](/reference/plugins/jac-scale/)
+- [Testing Guide](/reference/testing/)

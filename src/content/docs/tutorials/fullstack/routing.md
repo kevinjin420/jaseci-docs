@@ -6,7 +6,7 @@ Build multi-page applications with client-side routing.
 
 > **Prerequisites**
 >
-> - Completed: [Authentication](auth.md)
+> - Completed: [Authentication](/tutorials/fullstack/auth/)
 > - Time: ~20 minutes
 
 ---
@@ -853,5 +853,5 @@ cl import from "@jac/runtime" {
 
 ## Next Steps
 
-- [Backend Integration](backend.md) - Connect to walker APIs
-- [Authentication](auth.md) - Add protected routes
+- [Backend Integration](/tutorials/fullstack/backend/) - Connect to walker APIs
+- [Authentication](/tutorials/fullstack/auth/) - Add protected routes

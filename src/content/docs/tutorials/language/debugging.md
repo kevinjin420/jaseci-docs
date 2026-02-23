@@ -206,5 +206,5 @@ You can drag nodes around to better visualize the structure.
 
 ## Next Steps
 
-- [Testing Your Code](testing.md) - Write and run tests
-- [Object-Spatial Programming](osp.md) - Learn about nodes, edges, and walkers
+- [Testing Your Code](/tutorials/language/testing/) - Write and run tests
+- [Object-Spatial Programming](/tutorials/language/osp/) - Learn about nodes, edges, and walkers

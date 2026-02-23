@@ -23,7 +23,7 @@ Build a Twitter-like app in **200 lines of code**.
 | **Features** | Nodes, walkers, edges, graph traversal, `jac start` |
 | **Learn** | How to model social relationships as graphs |
 
-[Start LittleX Tutorial →](littlex.md)
+[Start LittleX Tutorial →](/tutorials/examples/littlex/)
 
 ---
 
@@ -37,7 +37,7 @@ An intelligent email assistant powered by LLMs.
 | **Features** | `by llm`, structured outputs, tool calling |
 | **Learn** | How to build agentic AI applications |
 
-[Start EmailBuddy Tutorial →](emailbuddy.md)
+[Start EmailBuddy Tutorial →](/tutorials/examples/emailbuddy/)
 
 ---
 
@@ -51,7 +51,7 @@ A multimodal chatbot with document search and retrieval.
 | **Features** | MCP tools, vector search, retrieval-augmented generation |
 | **Learn** | How to build knowledge-based AI systems |
 
-[Start RAG Chatbot Tutorial →](rag-chatbot.md)
+[Start RAG Chatbot Tutorial →](/tutorials/examples/rag-chatbot/)
 
 ---
 
@@ -65,7 +65,7 @@ AI-powered procedural game level generation.
 | **Features** | `by llm`, structured data types, game logic |
 | **Learn** | How to use AI for creative content generation |
 
-[Start RPG Generator Tutorial →](rpg.md)
+[Start RPG Generator Tutorial →](/tutorials/examples/rpg/)
 
 ---
 
@@ -145,7 +145,7 @@ Want to share your Jac project?
 2. Write a tutorial explaining the key concepts
 3. Submit a pull request
 
-See the [Contributing Guide](../../community/contributing.md) for details.
+See the [Contributing Guide](/community/internals/contrib/) for details.
 
 ---
 

@@ -6,8 +6,8 @@ Learn Jac's unique graph-based programming paradigm with nodes, edges, and walke
 
 > **Prerequisites**
 >
-> - Completed: [Hello World](../../quick-guide/hello-world.md)
-> - Recommended: [What Makes Jac Different](../../quick-guide/what-makes-jac-different.md) (gentler introduction)
+> - Completed: [Hello World](/quick-guide/hello-world/)
+> - Recommended: [What Makes Jac Different](/quick-guide/what-makes-jac-different/) (gentler introduction)
 > - Time: ~45 minutes
 
 ---
@@ -43,7 +43,7 @@ graph TD
 > | `visit` | Move walker to nodes | `visit [-->]` |
 > | `report` | Return data from walker | `report here` |
 >
-> See [Graph Operations](../../reference/language/graph-operations.md) for complete reference.
+> See [Graph Operations](/reference/language/graph-operations/) for complete reference.
 
 ---
 
@@ -521,7 +521,7 @@ Start with `def:pub` to prototype quickly. Switch to walkers when you need authe
 :::
 
 
-The [First App Tutorial](../first-app/part1-todo-app.md) uses `def:pub` in Part 1, then refactors to walkers in [Part 3](../first-app/part3-multi-user.md) -- showing exactly when and why to make the switch.
+The [First App Tutorial](/tutorials/first-app/part1-todo-app/) uses `def:pub` in Part 1, then refactors to walkers in [Part 3](/tutorials/first-app/part3-multi-user/) -- showing exactly when and why to make the switch.
 
 ---
 
@@ -545,12 +545,12 @@ The [First App Tutorial](../first-app/part1-todo-app.md) uses `def:pub` in Part 
 
 **Continue Learning:**
 
-- [Testing](testing.md) - Test your nodes and walkers
-- [AI Integration](../ai/quickstart.md) - Add LLM capabilities
-- [First App Tutorial](../first-app/part1-todo-app.md) - Review the todo app example
+- [Testing](/tutorials/language/testing/) - Test your nodes and walkers
+- [AI Integration](/tutorials/ai/quickstart/) - Add LLM capabilities
+- [First App Tutorial](/tutorials/first-app/part1-todo-app/) - Review the todo app example
 
 **Reference:**
 
-- [Graph Operations](../../reference/language/graph-operations.md) - Complete edge/node operator reference
-- [Walker Responses](../../reference/language/walker-responses.md) - Understanding `.reports` patterns
-- [Part III: OSP](../../reference/language/osp.md) - Full language reference
+- [Graph Operations](/reference/language/graph-operations/) - Complete edge/node operator reference
+- [Walker Responses](/reference/language/walker-responses/) - Understanding `.reports` patterns
+- [Part III: OSP](/reference/language/osp/) - Full language reference

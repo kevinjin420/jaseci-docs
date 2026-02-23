@@ -34,15 +34,15 @@ EmailBuddy demonstrates three key Jac principles:
 
 ## Prerequisites & Key Concepts
 
-- Completed [Part 2: Add AI](../first-app/part2-ai-features.md) (AI integration basics)
-- Familiar with [OSP Tutorial](../language/osp.md) (nodes, edges, walkers)
+- Completed [Part 2: Add AI](/tutorials/first-app/part2-ai-features/) (AI integration basics)
+- Familiar with [OSP Tutorial](/tutorials/language/osp/) (nodes, edges, walkers)
 
 | Concept | Where to Learn |
 |---------|----------------|
-| `by llm()` functions | [byLLM Quickstart](../ai/quickstart.md), [Part 2](../first-app/part2-ai-features.md) |
-| Agentic patterns | [Agentic AI Tutorial](../ai/agentic.md) |
-| Nodes & graph modeling | [OSP Tutorial](../language/osp.md) |
-| Walker APIs | [Part 3](../first-app/part3-multi-user.md) |
+| `by llm()` functions | [byLLM Quickstart](/tutorials/ai/quickstart/), [Part 2](/tutorials/first-app/part2-ai-features/) |
+| Agentic patterns | [Agentic AI Tutorial](/tutorials/ai/agentic/) |
+| Nodes & graph modeling | [OSP Tutorial](/tutorials/language/osp/) |
+| Walker APIs | [Part 3](/tutorials/first-app/part3-multi-user/) |
 
 ---
 
@@ -367,5 +367,5 @@ $.ajax({
 
 ## Next Examples
 
-- [RAG Chatbot](rag-chatbot.md) - Document Q&A with vector search
-- [LittleX](littlex.md) - Social media platform
+- [RAG Chatbot](/tutorials/examples/rag-chatbot/) - Document Q&A with vector search
+- [LittleX](/tutorials/examples/littlex/) - Social media platform

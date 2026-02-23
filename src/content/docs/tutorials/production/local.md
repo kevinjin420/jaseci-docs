@@ -6,7 +6,7 @@ Run your Jac walkers as a production-ready HTTP API server.
 
 > **Prerequisites**
 >
-> - Completed: [Your First App](../first-app/part1-todo-app.md)
+> - Completed: [Your First App](/tutorials/first-app/part1-todo-app/)
 > - Time: ~15 minutes
 
 ---
@@ -471,5 +471,5 @@ curl http://localhost:8000/health
 
 ## Next Steps
 
-- [Kubernetes Deployment](kubernetes.md) - Scale with jac-scale
-- [Authentication](../fullstack/auth.md) - Add user login
+- [Kubernetes Deployment](/tutorials/production/kubernetes/) - Scale with jac-scale
+- [Authentication](/tutorials/fullstack/auth/) - Add user login

@@ -36,15 +36,15 @@ This example demonstrates advanced Jac concepts:
 
 ## Prerequisites & Key Concepts
 
-- Completed the [AI Integration](../ai/quickstart.md) tutorials
-- Familiar with [OSP](../language/osp.md) (node-walker architecture)
+- Completed the [AI Integration](/tutorials/ai/quickstart/) tutorials
+- Familiar with [OSP](/tutorials/language/osp/) (node-walker architecture)
 
 | Concept | Where to Learn |
 |---------|----------------|
-| `by llm()` | [byLLM Quickstart](../ai/quickstart.md) |
-| OSP architecture | [OSP Tutorial](../language/osp.md) |
-| Structured outputs | [Structured Outputs](../ai/structured-outputs.md) |
-| Tool calling / MCP | [Agentic AI](../ai/agentic.md) |
+| `by llm()` | [byLLM Quickstart](/tutorials/ai/quickstart/) |
+| OSP architecture | [OSP Tutorial](/tutorials/language/osp/) |
+| Structured outputs | [Structured Outputs](/tutorials/ai/structured-outputs/) |
+| Tool calling / MCP | [Agentic AI](/tutorials/ai/agentic/) |
 
 ---
 
@@ -315,5 +315,5 @@ Full API docs at `http://localhost:8000/docs`
 
 ## Next Examples
 
-- [EmailBuddy](emailbuddy.md) - Agentic email assistant
-- [RPG Generator](rpg.md) - AI-generated game content
+- [EmailBuddy](/tutorials/examples/emailbuddy/) - Agentic email assistant
+- [RPG Generator](/tutorials/examples/rpg/) - AI-generated game content

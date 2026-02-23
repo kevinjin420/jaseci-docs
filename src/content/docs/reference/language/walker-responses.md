@@ -6,9 +6,9 @@ This reference explains how walker responses work and the common patterns for ha
 
 > **Related:**
 >
-> - [Graph Operations](graph-operations.md) - Node creation, traversal, and deletion
-> - [Part III: OSP](osp.md) - Walker and node fundamentals
-> - [Build a Todo App](../../tutorials/fullstack/todo-app.md) - Full tutorial using these patterns
+> - [Graph Operations](/reference/language/graph-operations/) - Node creation, traversal, and deletion
+> - [Part III: OSP](/reference/language/osp/) - Walker and node fundamentals
+> - [Build a Todo App](/tutorials/fullstack/todo-app/) - Full tutorial using these patterns
 
 ---
 

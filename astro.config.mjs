@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightLinksValidator from "starlight-links-validator";
 import fs from "node:fs";
 
 const jacGrammar = JSON.parse(
@@ -13,6 +14,7 @@ export default defineConfig({
   site: "https://jaseci-docs.kevinjin.dev",
   integrations: [
     starlight({
+      plugins: [starlightLinksValidator({ errorOnLocalLinks: false })],
       title: "Jac Docs",
       logo: {
         src: "./src/assets/logo.png",

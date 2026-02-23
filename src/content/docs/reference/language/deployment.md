@@ -136,7 +136,7 @@ Kubernetes service mesh integration for:
 
 For teams preferring pure Python syntax or integrating Jac into existing Python codebases, Library Mode provides an alternative deployment approach. Instead of `.jac` files, you use Python files with Jac's runtime as a library.
 
-> **Complete Guide:** See [Library Mode](library-mode.md) for the full API reference, code examples, and migration guide.
+> **Complete Guide:** See [Library Mode](/reference/language/library-mode/) for the full API reference, code examples, and migration guide.
 
 **Key Features:**
 

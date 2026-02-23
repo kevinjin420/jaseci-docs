@@ -2,9 +2,9 @@
 title: Library Mode
 ---# Jac Library Mode
 
-> **Part of:** [Part IX: Deployment](deployment.md)
+> **Part of:** [Part IX: Deployment](/reference/language/deployment/)
 >
-> **Related:** [Python Integration](python-integration.md) | [Part III: OSP](osp.md)
+> **Related:** [Python Integration](/reference/language/python-integration/) | [Part III: OSP](/reference/language/osp/)
 
 ---
 

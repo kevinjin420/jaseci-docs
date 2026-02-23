@@ -403,7 +403,7 @@ cl {
 }
 ```
 
-See [Walker Responses](../reference/language/walker-responses.md) for details on the response structure.
+See [Walker Responses](/reference/language/walker-responses/) for details on the response structure.
 
 ---
 
@@ -484,7 +484,7 @@ obj PersonInfo {
 }
 ```
 
-See [Structured Outputs](ai/structured-outputs.md) for more details.
+See [Structured Outputs](/tutorials/ai/structured-outputs/) for more details.
 
 ---
 

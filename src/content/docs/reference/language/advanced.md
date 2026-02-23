@@ -355,9 +355,9 @@ with entry {
 
 **Tutorials:**
 
-- [Testing](../../tutorials/language/testing.md) - Write and run tests
+- [Testing](/tutorials/language/testing/) - Write and run tests
 
 **Related Reference:**
 
-- [Part I: Foundation](foundation.md) - Core language features
-- [Part III: OSP](osp.md) - Graph operations
+- [Part I: Foundation](/reference/language/foundation/) - Core language features
+- [Part III: OSP](/reference/language/osp/) - Graph operations

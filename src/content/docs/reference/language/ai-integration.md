@@ -15,8 +15,8 @@ Jac's AI integration goes beyond simple API calls. With "Meaning Typed Programmi
 
 > **Prerequisites:**
 >
-> - [The `by` Operator](foundation.md#9-the-by-operator) - Basic syntax
-> - [Function Declaration](functions-objects.md#1-function-declaration) - Function signatures
+> - [The `by` Operator](/reference/language/foundation/#9-the-by-operator) - Basic syntax
+> - [Function Declaration](/reference/language/functions-objects/#1-function-declaration) - Function signatures
 >
 > **Required Plugin:** `pip install byllm`
 
@@ -336,15 +336,15 @@ walker Coordinator {
 
 **Tutorials:**
 
-- [byLLM Quickstart](../../tutorials/ai/quickstart.md) - Your first AI function
-- [Structured Outputs](../../tutorials/ai/structured-outputs.md) - Type-safe LLM responses
-- [Agentic AI](../../tutorials/ai/agentic.md) - Tool calling and ReAct pattern
+- [byLLM Quickstart](/tutorials/ai/quickstart/) - Your first AI function
+- [Structured Outputs](/tutorials/ai/structured-outputs/) - Type-safe LLM responses
+- [Agentic AI](/tutorials/ai/agentic/) - Tool calling and ReAct pattern
 
 **Examples:**
 
-- [EmailBuddy](../../tutorials/examples/emailbuddy.md) - AI email assistant
-- [RAG Chatbot](../../tutorials/examples/rag-chatbot.md) - Document Q&A
+- [EmailBuddy](/tutorials/examples/emailbuddy/) - AI email assistant
+- [RAG Chatbot](/tutorials/examples/rag-chatbot/) - Document Q&A
 
 **Related Reference:**
 
-- [byLLM Reference](../plugins/byllm.md) - Complete API documentation
+- [byLLM Reference](/reference/plugins/byllm/) - Complete API documentation

@@ -6,7 +6,7 @@ Work with images and videos in byLLM.
 
 > **Prerequisites**
 >
-> - Completed: [Structured Outputs](structured-outputs.md)
+> - Completed: [Structured Outputs](/tutorials/ai/structured-outputs/)
 > - Time: ~25 minutes
 
 ---
@@ -337,6 +337,6 @@ with entry {
 
 ## Next Steps
 
-- [Agentic AI](agentic.md) - Combine multimodal with tool calling
-- [byLLM Reference](../../reference/plugins/byllm.md) - Complete documentation
-- [Examples Gallery](../examples/index.md) - More multimodal examples
+- [Agentic AI](/tutorials/ai/agentic/) - Combine multimodal with tool calling
+- [byLLM Reference](/reference/plugins/byllm/) - Complete documentation
+- [Examples Gallery](/tutorials/examples/) - More multimodal examples
