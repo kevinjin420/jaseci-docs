@@ -77,7 +77,7 @@ export default defineConfig({
         {
           label: "Quick Guide",
           items: [
-            { label: "Welcome", slug: "quick-guide" },
+            { label: "Welcome", slug: "" },
             { label: "Installation", slug: "quick-guide/install" },
             { label: "Hello World", slug: "quick-guide/hello-world" },
             { label: "Core Concepts", slug: "quick-guide/what-makes-jac-different" },
@@ -220,8 +220,8 @@ export default defineConfig({
     }),
   ],
   redirects: {
-    "/": "/quick-guide/",
-    "/getting-started/": "/quick-guide/",
+    "/quick-guide/": "/",
+    "/getting-started/": "/",
     "/quick-guide/first-graph/": "/quick-guide/what-makes-jac-different/",
     "/quick-guide/thinking-in-graphs/":
       "/quick-guide/what-makes-jac-different/",

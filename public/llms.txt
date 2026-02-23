@@ -9,7 +9,7 @@
 
 ## Documentation
 
-- Quick Guide: https://jac-lang.org/quick-guide/
+- Quick Guide: https://jac-lang.org/
 - Tutorials: https://jac-lang.org/tutorials/
 - Language Reference: https://jac-lang.org/reference/language/
 - AI Integration: https://jac-lang.org/tutorials/ai/quickstart/
